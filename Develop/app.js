@@ -11,6 +11,15 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 const render = require("./lib/htmlRenderer");
 
 
+//user multiple inquirer prompts w promises to chain them (use .then to do this)
+
+// function askInitialQuestion(){
+//     return inquirer.prompt({
+//         dkljfkdsjf: kdlfjjdf,
+//     })
+// }
+// askInitialQuestion().then(meow);
+
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
 
