@@ -30,13 +30,12 @@ Git clone to local repository.
 Node.js and a code editor such as Visual Studio Code are necessary for usage.
   ## Contributing 
 Just me!
-  ## Tests 
 
   ## Questions 
   
 * [Send me an email](mailto:gjoey.brown@gmail.com.com)
   
-* [Reach out to me on Github](https://github.com/github.com/joeybrown-ctrl)
+* [Reach out to me on Github](https://github.com/joeybrown-ctrl)
 
   
 <hr>
