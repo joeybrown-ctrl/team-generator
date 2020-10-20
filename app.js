@@ -24,17 +24,17 @@ function init() {
         {
             type: "input",
             name: "name",
-            message: "What is the employees name?"
+            message: "What is the employee's name?"
         },
         {
             type: "input",
             name: "id",
-            message: "What is the employe's id?"
+            message: "What is the employee's id?"
         },
         {
             type: "input",
             name: "email",
-            message: "What is the employe's email?"
+            message: "What is the employee's email?"
         },
 
     ])
@@ -57,7 +57,7 @@ function init() {
                     {
                         type: "input",
                         name: "github",
-                        message: "What is the employee's github?"
+                        message: "What is the employee's GitHub profile?"
                     }
                 ])
                     .then(function (response) {
