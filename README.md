@@ -28,9 +28,9 @@ A Node CLI that generates an HTML page with employee profiles. Utilizes NPM's In
 Utilizes HTML5, Bootstrap, JavaScript and Node.js. This app was made using test driven development using Jest. Code was written against tests to ensure maximum efficiency.
 
 The app looks like this when rendered in the browser:
-<br>
-  ![app rendered in browser](https://github.com/joeybrown-ctrl/team-generator/blob/main/images/card-pic.png)
 <hr>
+  ![app rendered in browser](https://github.com/joeybrown-ctrl/team-generator/blob/main/images/card-pic.png)
+<br>
 
   ## Installation 
 Clone to local repository.
