@@ -26,10 +26,10 @@ function init() {
             name: "name",
             message: "What is the employee's name?",
             validate: function (answer) {
-                if (answer.trim() === "") {
+                if (answer.trim() !== "") {
                     return true;
                 } else {
-                    throw err("Please enter the employee's name.")
+                    console.log("Please enter the employee's name.");
                 }
             }
 
@@ -42,7 +42,7 @@ function init() {
                 if (answer.match(/^[0-9]+$/)) {
                     return true;
                 } else {
-                    throw err("Please enter the employee's ID number.")
+                    console.log("Please enter the employee's ID number.");
                 }
             }
         },
@@ -54,7 +54,7 @@ function init() {
                 if (answer.match(/\S+@\S+\.\S+/)) {
                     return true;
                 } else {
-                    throw err("Please enter a valid email address.")
+                    console.log("Please enter a valid email address.");
                 }
             }
         },
@@ -71,7 +71,7 @@ function init() {
                             if (answer.match(/^[0-9]+$/)) {
                                 return true;
                             } else {
-                                throw err("Please enter the manager's office number.")
+                                console.log("Please enter the manager's office number.");
                             }
                         }
                     }
@@ -88,10 +88,10 @@ function init() {
                         name: "github",
                         message: "What is the engineer's GitHub profile?",
                         validate: function (answer) {
-                            if (answer.trim() === "") {
+                            if (answer.trim() !== "") {
                                 return true;
                             } else {
-                                throw err("Please enter the engineer's GitHub profile.")
+                                console.log("Please enter the engineer's GitHub profile.");
                             }
                         }
                     }
@@ -108,10 +108,10 @@ function init() {
                         name: "school",
                         message: "What is the intern's school?",
                         validate: function (answer) {
-                            if (answer.trim() === "") {
+                            if (answer.trim() !== "") {
                                 return true;
                             } else {
-                                throw err("Please enter the intern's school.")
+                                console.log("Please enter the intern's school.");
                             }
                         }
                     }
