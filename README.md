@@ -4,8 +4,6 @@
 
   ![Example 1](https://github.com/joeybrown-ctrl/team-generator/blob/main/images/gif-team-profile-generator.gif)
 
-   ![app rendered in browser](https://github.com/joeybrown-ctrl/team-generator/blob/main/images/card-pic.png)
-
   ## Table of Contents
 
   
@@ -28,6 +26,12 @@
 A Node CLI that generates an HTML page with employee profiles. Utilizes NPM's Inquirer package to ask the user whether the employee they are inputting is a manager, engineer or intern -- and what the employee's name, ID, and email are -- with additional role specific questions as well.
 
 Utilizes HTML5, Bootstrap, JavaScript and Node.js. This app was made using test driven development using Jest. Code was written against tests to ensure maximum efficiency.
+
+The app looks like this when rendered in the browser:
+<br>
+  ![app rendered in browser](https://github.com/joeybrown-ctrl/team-generator/blob/main/images/card-pic.png)
+<hr>
+
   ## Installation 
 Clone to local repository.
   ## Usage 
