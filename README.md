@@ -2,6 +2,8 @@
 
   ![license](https://img.shields.io/badge/License-MIT-blue.svg)
 
+  ![Example 1](gif-team-profile-generator)
+
   ## Table of Contents
 
   
@@ -15,8 +17,6 @@
   
 * [Contributing](#contributing)
   
-* [Tests](#tests) 
-  
 * [Questions](#questions)
 
   
@@ -24,8 +24,10 @@
 
   ## Description 
 A Node CLI that generates an HTML page with employee profiles. Utilizes NPM's Inquirer package to ask the user whether the employee they are inputting is a manager, engineer or intern -- and what the employee's name, ID, and email are -- with additional role specific questions as well.
+
+Utilizes HTML5, Bootstrap, JavaScript and Node.js. This app was made using test driven development using Jest. Code was written against tests to ensure maximum efficiency.
   ## Installation 
-Git clone to local repository.
+Clone to local repository.
   ## Usage 
 Node.js and a code editor such as Visual Studio Code are necessary for usage.
   ## Contributing 

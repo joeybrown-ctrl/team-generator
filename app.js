@@ -11,7 +11,6 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 const render = require("./lib/htmlRenderer");
 const employeeArr = [];
 
-//user multiple inquirer prompts w promises to chain them (use .then to do this)
 
 function init() {
     inquirer.prompt([
