@@ -25,7 +25,7 @@
   ## Description 
 A Node CLI that generates an HTML page with employee profiles. Utilizes NPM's Inquirer package to ask the user whether the employee they are inputting is a manager, engineer or intern -- and what the employee's name, ID, and email are -- with additional role specific questions as well.
 
-Utilizes HTML5, Bootstrap, JavaScript and Node.js. This app was made using test driven development using Jest. Code was written against tests to ensure maximum efficiency.
+Utilizes HTML5, Bootstrap, JavaScript and Node.js. This app was made using test driven development. NPM's Jest package was used for this. Code was written against tests to ensure maximum efficiency.
 
 The app looks like this when rendered in the browser:
 <hr>
