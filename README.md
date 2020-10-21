@@ -2,7 +2,9 @@
 
   ![license](https://img.shields.io/badge/License-MIT-blue.svg)
 
-  ![Example 1](https://github.com/joeybrown-ctrl/team-generator/blob/main/gif-team-profile-generator.gif)
+  ![Example 1](https://github.com/joeybrown-ctrl/team-generator/blob/main/images/gif-team-profile-generator.gif)
+
+   ![app rendered in browser](https://github.com/joeybrown-ctrl/team-generator/blob/main/images/card-pic.png)
 
   ## Table of Contents
 
