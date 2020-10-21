@@ -24,17 +24,39 @@ function init() {
         {
             type: "input",
             name: "name",
-            message: "What is the employee's name?"
+            message: "What is the employee's name?",
+            validate: function (answer) {
+                if (answer.trim() === "") {
+                    return true;
+                } else {
+                    throw err("Please enter the employee's name.")
+                }
+            }
+
         },
         {
             type: "input",
             name: "id",
-            message: "What is the employee's id?"
+            message: "What is the employee's id?",
+            validate: function (answer) {
+                if (answer.match(/^[0-9]+$/)) {
+                    return true;
+                } else {
+                    throw err("Please enter the employee's ID number.")
+                }
+            }
         },
         {
             type: "input",
             name: "email",
-            message: "What is the employee's email?"
+            message: "What is the employee's email?",
+            validate: function (answer) {
+                if (answer.match(/\S+@\S+\.\S+/)) {
+                    return true;
+                } else {
+                    throw err("Please enter a valid email address.")
+                }
+            }
         },
 
     ])
@@ -44,7 +66,14 @@ function init() {
                     {
                         type: "input",
                         name: "officeNumber",
-                        message: "What is the employee's office number?"
+                        message: "What is the manager's office number?",
+                        validate: function (answer) {
+                            if (answer.match(/^[0-9]+$/)) {
+                                return true;
+                            } else {
+                                throw err("Please enter the manager's office number.")
+                            }
+                        }
                     }
                 ])
                     .then(function (response) {
@@ -57,7 +86,14 @@ function init() {
                     {
                         type: "input",
                         name: "github",
-                        message: "What is the employee's GitHub profile?"
+                        message: "What is the engineer's GitHub profile?",
+                        validate: function (answer) {
+                            if (answer.trim() === "") {
+                                return true;
+                            } else {
+                                throw err("Please enter the engineer's GitHub profile.")
+                            }
+                        }
                     }
                 ])
                     .then(function (response) {
@@ -70,7 +106,14 @@ function init() {
                     {
                         type: "input",
                         name: "school",
-                        message: "What is the employee's school?"
+                        message: "What is the intern's school?",
+                        validate: function (answer) {
+                            if (answer.trim() === "") {
+                                return true;
+                            } else {
+                                throw err("Please enter the intern's school.")
+                            }
+                        }
                     }
                 ])
                     .then(function (response) {
