@@ -29,7 +29,9 @@ Utilizes HTML5, Bootstrap, JavaScript and Node.js. This app was made using test 
 
 The app looks like this when rendered in the browser:
 <hr>
+
   ![app rendered in browser](https://github.com/joeybrown-ctrl/team-generator/blob/main/images/card-pic.png)
+
 <br>
 
   ## Installation 
